@@ -1,0 +1,47 @@
+header{
+    background-color: $backColor;
+    height: 90px;
+    div{
+        a{
+            img{
+                width: 100%;
+                height: 100%;
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+.nav-link{
+    font-weight: 600;
+    color:  $primaryColor;;
+    transition: all 1s;
+    text-align: right;
+    &:hover{
+    color:  $secondaryColor;
+    font-weight: 600;
+    }
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    transition: width 1s, height 1s;
+    &:hover{
+        width: 70px;
+        height: auto; 
+    }  
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.d-flex justify-content-end{
+    padding: 30px 20px;
+}

@@ -1,0 +1,19 @@
+.footer{
+    background-color: $footerColor;
+    div{
+        width: 30px;
+        height: auto;
+        justify-content: space-evenly;
+        img{
+            div{
+                a{
+                    padding: 5px;
+                    font-size: 1rem;
+                    font-family: 'Ubuntu', sans-serif;
+                    justify-content: space-around;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }         
+}

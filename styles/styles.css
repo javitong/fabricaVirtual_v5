@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+header {
+  background-color: #ffffff;
+  height: 90px;
+}
+header div a img {
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #323150;
+  transition: all 1s;
+  text-align: right;
+}
+.nav-link:hover {
+  color: #2fa5a3;
+  font-weight: 600;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  transition: width 1s, height 1s;
+}
+.logo:hover {
+  width: 70px;
+  height: auto;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.d-flex justify-content-end {
+  padding: 30px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+main {
+  background: linear-gradient(-45deg, #ffffff, #f0ebeb);
+}
+
+main {
+  background-size: cover;
+}
+main section h1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bolder;
+  font-size: 8rem;
+  padding: 20rem;
+  color: #323150;
+  text-shadow: #2fa5a3 7px 7px;
+}
+main section h1:hover {
+  -webkit-animation-name: titulo;
+          animation-name: titulo;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.banner {
+  background-image: url(/fabrica_virtual_v4/resources/Sitio_FV.1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #323150;
+  text-align: center;
+  padding: 20px;
+}
+
+@-webkit-keyframes titulo {
+  0% {
+    color: #323150;
+  }
+  25% {
+    color: #ffffff;
+  }
+  50% {
+    color: #323150;
+  }
+  75% {
+    color: #ffffff;
+  }
+  100% {
+    color: #323150;
+  }
+}
+
+@keyframes titulo {
+  0% {
+    color: #323150;
+  }
+  25% {
+    color: #ffffff;
+  }
+  50% {
+    color: #323150;
+  }
+  75% {
+    color: #ffffff;
+  }
+  100% {
+    color: #323150;
+  }
+}
+/*Cursos-----------------------------------------------*/
+.card {
+  background-color: #f0ebeb;
+  border-radius: 20px;
+  border-color: #323150;
+  border-width: 1.5px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin: 10px;
+}
+.card .card-img-top {
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #323150;
+  font-weight: 800;
+  text-align: right;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #323150;
+  color: #ffffff;
+}
+.btn:hover {
+  background-color: #2fa5a3;
+  color: #f0ebeb;
+}
+
+/*Calendario-----------------------------------------------*/
+.footer {
+  background-color: #b3b3b3;
+}
+.footer div {
+  width: 30px;
+  height: auto;
+  justify-content: space-evenly;
+}
+.footer div img div a {
+  padding: 5px;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: space-around;
+  color: #323150;
+}
+
+@media (max-width: 1920px) {
+  .titulo {
+    font-size: 8rem;
+    margin-left: 4rem;
+    padding: 10rem;
+  }
+  .banner {
+    background-size: 1750px;
+  }
+}
+@media (max-width: 1366px) {
+  .titulo {
+    font-size: 7rem;
+    margin-left: 2rem;
+    padding: 6rem;
+  }
+  .banner {
+    background-size: 1300px;
+  }
+}
+@media (max-width: 1024px) {
+  .titulo {
+    font-size: 5rem;
+    margin-left: 2rem;
+    padding: 6rem;
+    text-shadow: #2fa5a3 4px 4px;
+  }
+  .banner {
+    background-size: 950px;
+  }
+}
+@media (max-width: 720px) {
+  .titulo {
+    font-size: 3rem;
+    margin-left: 3rem;
+    padding: 2rem;
+    text-shadow: #2fa5a3 3px 3px;
+  }
+  .banner {
+    background-size: 700px;
+  }
+}
+@media (max-width: 500px) {
+  .titulo {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    padding: 1.5rem;
+  }
+  .banner {
+    background-size: 500px;
+  }
+}
+.contenedor {
+  font-family: Ubuntu, sans-serif;
+}/*# sourceMappingURL=styles.css.map */
