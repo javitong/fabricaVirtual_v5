@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
 header {
-  background-color: #ffffff;
+  background-color: #000000;
   height: 90px;
 }
 header div a img {
@@ -13,12 +13,12 @@ header div a img {
 
 .nav-link {
   font-weight: 600;
-  color: #323150;
+  color: #aaaaaa;
   transition: all 1s;
   text-align: right;
 }
 .nav-link:hover {
-  color: #2fa5a3;
+  color: #24e7e4;
   font-weight: 600;
 }
 
@@ -52,19 +52,26 @@ header div a img {
 }
 
 main {
-  background: linear-gradient(-45deg, #ffffff, #f0ebeb);
+  background: linear-gradient(-45deg, #111111, #000000);
 }
 
 main {
   background-size: cover;
+  padding-bottom: 20rem;
+}
+main section {
+  margin: 0 auto;
 }
 main section h1 {
   font-family: Ubuntu, sans-serif;
   font-weight: bolder;
   font-size: 8rem;
-  padding: 20rem;
-  color: #323150;
-  text-shadow: #2fa5a3 7px 7px;
+  padding-top: 20rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 5rem;
+  color: #d81dde;
+  text-shadow: #24e7e4 5px 5px;
 }
 main section h1:hover {
   -webkit-animation-name: titulo;
@@ -77,61 +84,90 @@ main section h1:hover {
           animation-duration: 2s;
 }
 
+.botonCursos {
+  width: 250px;
+  border: 1px solid #d81dde;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #d81dde;
+  margin-left: 20rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.botonCursos:hover {
+  color: #24e7e4;
+  border: 1px solid #24e7e4;
+}
+
+.cursos {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #d81dde;
+  margin: 20px;
+}
+.cursos:hover {
+  color: #24e7e4;
+}
+
 .banner {
-  background-image: url(/fabrica_virtual_v4/resources/Sitio_FV.1.png);
+  background-image: url(/resources/Sitio_FV.520.png);
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: center;
   padding: 50px;
 }
 
 h2 {
   font-size: 2rem;
   font-family: "Ubuntu", sans-serif;
-  color: #323150;
+  color: #d81dde;
   text-align: center;
   padding: 20px;
 }
 
 @-webkit-keyframes titulo {
   0% {
-    color: #323150;
+    color: #d81dde;
   }
   25% {
     color: #ffffff;
   }
   50% {
-    color: #323150;
+    color: #d81dde;
   }
   75% {
     color: #ffffff;
   }
   100% {
-    color: #323150;
+    color: #d81dde;
   }
 }
 
 @keyframes titulo {
   0% {
-    color: #323150;
+    color: #d81dde;
   }
   25% {
     color: #ffffff;
   }
   50% {
-    color: #323150;
+    color: #d81dde;
   }
   75% {
     color: #ffffff;
   }
   100% {
-    color: #323150;
+    color: #d81dde;
   }
 }
 /*Cursos-----------------------------------------------*/
 .card {
-  background-color: #f0ebeb;
+  background-color: #000000;
   border-radius: 20px;
-  border-color: #323150;
+  border-color: #d81dde;
   border-width: 1.5px;
   width: 100%;
   height: 100%;
@@ -145,24 +181,80 @@ h2 {
 .card-title {
   font-size: 1.5rem;
   font-family: "Ubuntu", sans-serif;
-  color: #323150;
+  color: #d81dde;
   font-weight: 800;
-  text-align: right;
+  text-align: left;
   padding: 20px;
 }
 
+.card-text {
+  text-align: left;
+  color: #aaaaaa;
+}
+
 .btn {
-  background-color: #323150;
+  border-radius: 30px;
+  border-color: #d81dde;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  background-color: #d81dde;
   color: #ffffff;
 }
 .btn:hover {
-  background-color: #2fa5a3;
-  color: #f0ebeb;
+  background-color: #24e7e4;
+  color: #000000;
 }
 
 /*Calendario-----------------------------------------------*/
+h3 {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #d81dde;
+  text-align: center;
+  padding: 10px;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.calendarioCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #d81dde;
+  border-radius: 20px;
+  background-color: #000000;
+  width: 250px;
+  height: 250px;
+}
+
+.cardsDias {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.cardsImagen {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.cardTitulo {
+  font-size: 1rem;
+  color: #d81dde;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 50px;
+  text-align: right;
+}
+
 .footer {
-  background-color: #b3b3b3;
+  background-color: #313131;
 }
 .footer div {
   width: 30px;
@@ -171,10 +263,6 @@ h2 {
 }
 .footer div img div a {
   padding: 5px;
-  font-size: 1rem;
-  font-family: "Ubuntu", sans-serif;
-  justify-content: space-around;
-  color: #323150;
 }
 
 @media (max-width: 1920px) {
@@ -186,6 +274,15 @@ h2 {
   .banner {
     background-size: 1750px;
   }
+  .botonCursos {
+    width: 10px;
+    font-size: 2rem;
+    margin-left: 15rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 @media (max-width: 1366px) {
   .titulo {
@@ -196,16 +293,34 @@ h2 {
   .banner {
     background-size: 1300px;
   }
+  .botonCursos {
+    width: 30px;
+    font-size: 2rem;
+    margin-left: 8rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
 @media (max-width: 1024px) {
   .titulo {
     font-size: 5rem;
     margin-left: 2rem;
     padding: 6rem;
-    text-shadow: #2fa5a3 4px 4px;
+    text-shadow: #24e7e4 4px 4px;
   }
   .banner {
     background-size: 950px;
+  }
+  .botonCursos {
+    width: 30px;
+    font-size: 2rem;
+    margin-left: 8rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 @media (max-width: 720px) {
@@ -213,10 +328,19 @@ h2 {
     font-size: 3rem;
     margin-left: 3rem;
     padding: 2rem;
-    text-shadow: #2fa5a3 3px 3px;
+    text-shadow: #24e7e4 3px 3px;
   }
   .banner {
     background-size: 700px;
+  }
+  .botonCursos {
+    width: 20px;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 @media (max-width: 500px) {
@@ -227,6 +351,15 @@ h2 {
   }
   .banner {
     background-size: 500px;
+  }
+  .botonCursos {
+    width: 20px;
+    font-size: 1rem;
+    margin-left: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 .contenedor {

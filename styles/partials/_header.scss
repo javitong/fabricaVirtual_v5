@@ -1,5 +1,5 @@
 header{
-    background-color: $backColor;
+    background-color: $navbarColor;
     height: 90px;
     div{
         a{
@@ -15,7 +15,7 @@ header{
 
 .nav-link{
     font-weight: 600;
-    color:  $primaryColor;;
+    color:  $tertiaryColor;;
     transition: all 1s;
     text-align: right;
     &:hover{

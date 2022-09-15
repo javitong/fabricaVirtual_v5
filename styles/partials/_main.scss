@@ -7,19 +7,24 @@
 }
 
 main{
-    background: linear-gradient(-45deg, $backColor, $tertiaryColor);
+    background: linear-gradient(-45deg, $backColor, #000000);
 }
 
 main{
     background-size: cover;
+    padding-bottom: 20rem;
     section{
+        margin: 0 auto;
             h1{
             font-family: Ubuntu, sans-serif;
             font-weight: bolder;
             font-size: 8rem;
-            padding: 20rem;
+            padding-top: 20rem;
+            padding-left: 20rem;
+            padding-right: 20rem;
+            padding-bottom: 5rem;
             color: $primaryColor;
-            text-shadow: $secondaryColor 7px 7px;
+            text-shadow: $secondaryColor 5px 5px;
             &:hover{
                 animation-name: titulo;
                 animation-iteration-count: infinite;
@@ -30,12 +35,42 @@ main{
         }
     }
 
-    .banner{
-        background-image: url(/fabrica_virtual_v4/resources/Sitio_FV.1.png);
+.botonCursos{
+    width: 250px;
+    border: 1px solid $primaryColor;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: $primaryColor;
+    margin-left: 20rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &:hover{
+        color: $secondaryColor;
+        border: 1px solid $secondaryColor;
+    }
+}
+
+.cursos{
+    text-decoration: none;
+    font-size: 2rem;
+    color: $primaryColor;
+    margin: 20px;
+    &:hover{
+        color: $secondaryColor;
+    }
+}
+
+.banner{
+        background-image: url(/resources/Sitio_FV.520.png);
         background-repeat: no-repeat;
         background-size: auto;
+        background-position: center;
         padding: 50px;
 }
+
 h2{
     font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
@@ -45,16 +80,16 @@ h2{
 }
 @keyframes titulo {
     0% {color: $primaryColor;}
-    25% {color: $backColor;}
+    25% {color: $animationColor;}
     50% {color: $primaryColor;}
-    75% {color: $backColor;}
+    75% {color: $animationColor;}
     100% {color: $primaryColor;}
 }
 
 /*Cursos-----------------------------------------------*/
 
 .card{
-    background-color: $tertiaryColor;
+    background-color: $navbarColor;
     border-radius: 20px;
     border-color: $primaryColor;
     border-width: 1.5px;
@@ -72,18 +107,73 @@ h2{
     font-family: 'Ubuntu', sans-serif;
     color: $primaryColor;
     font-weight: 800;
-    text-align: right;
+    text-align: left;
     padding: 20px;   
 }
 
+.card-text{
+    text-align: left;
+    color: $tertiaryColor;
+}
+
 .btn{
+    border-radius: 30px;
+    border-color: $primaryColor;
+    margin-right: 20px;
+    margin-bottom: 5px;
     background-color: $primaryColor;
-    color: $backColor;
+    color: $animationColor;
     &:hover{
     background-color: $secondaryColor;
-    color: $tertiaryColor;
+    color: $navbarColor;
     
 }
 }
 
 /*Calendario-----------------------------------------------*/
+h3{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: $primaryColor;
+    text-align: center;
+    padding: 10px;   
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.calendarioCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid $primaryColor;
+    border-radius: 20px;
+    background-color: $navbarColor;
+    width: 250px;
+    height: 250px;
+}
+
+.cardsDias{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.cardsImagen{
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.cardTitulo{
+    font-size: 1rem;
+    color: $primaryColor;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 50px;
+    text-align: right;  
+}
