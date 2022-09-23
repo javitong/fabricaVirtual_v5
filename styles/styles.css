@@ -42,6 +42,17 @@ header div a img {
   padding: 30px 20px;
 }
 
+.navbar-toggler {
+  border-color: #d81dde;
+  z-index: 1;
+  color: #d81dde;
+}
+
+.navbar-light .navbar-toggler-icon {
+  z-index: 1;
+  color: #d81dde;
+}
+
 * {
   margin: 0;
   padding: 0;

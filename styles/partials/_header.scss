@@ -45,3 +45,14 @@ header{
 .d-flex justify-content-end{
     padding: 30px 20px;
 }
+
+.navbar-toggler{
+    border-color: $primaryColor;
+    z-index: 1;
+    color: $primaryColor
+}
+
+.navbar-light .navbar-toggler-icon{
+    z-index: 1;
+    color: $primaryColor;
+}
