@@ -14,13 +14,13 @@ header{
 }
 
 .nav-link{
-    font-weight: 600;
+
+    font-size: 18px;
     color:  $tertiaryColor;;
     transition: all 1s;
     text-align: right;
     &:hover{
     color:  $secondaryColor;
-    font-weight: 600;
     }
 }
 

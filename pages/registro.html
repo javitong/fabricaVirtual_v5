@@ -36,11 +36,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li><a href="calendario.html" class="nav-link">Calendario</a></li>
-                            <li><a href="cursos.html" class="nav-link">Cursos</a></li>
-                            <li><a href="recursos.html" class="nav-link">Recursos</a></li>
-                            <li><a href="alumnos.html" class="nav-link">Alumnos</a></li>
-                            <li><a href="registro.html" class="nav-link">Registro</a></li>
+                        <li><a href="calendario.html" class="nav-link">Calendario</a></li>
+                        <li><a href="cursos.html" class="nav-link">Cursos</a></li>
+                        <li><a href="recursos.html" class="nav-link">Recursos</a></li>
+                        <li><a href="alumnos.html" class="nav-link">Alumnos</a></li>
+                        <li><a href="registro.html" class="nav-link">Registro</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,43 +52,75 @@
 
 
         <!--formulario------------------------------------------------------>
-
-        <form class="container">
-            <br><br>
-            <h2 >Registrate y empezá a modelar en 3d</h2>
-            <br><br>
-            <div class="mb-3">
-                <label for="exampleInputname" class="form-label">Nombre</label>
-                <input type="name" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
-                <br>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">Nunca compartiremos tu información.</div>
+        <h1>Registrate y empezá a modelar en 3d</h1>
+        <br>
+        <div class="container tex-center">
+            <div class="row">
+                <div class="col formulario">
+                    <form class="container">
+                        <br><br>
+                        <h2>Completá el formulario</h2>
+                        <div class="mb-3">
+                            <label for="exampleInputname" class="form-label">Nombre</label>
+                            <input type="name" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
+                            <br>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Nunca compartiremos tu información.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                            </div>
+                            <br><br>
+                            <button class="btn">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                <div class="col map">
+                    <br>
+                    <h2>Dónde nos encontramos</h2><br>
+                    <div class="mapaGoogle">
+                        <iframe class="googlemaps"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.6051930761414!2d-58.47431667069745!3d-34.542900294109266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a29c95a041%3A0xa629dd0c4bf89db0!2sAv.%20San%20Isidro%20Labrador%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663940571570!5m2!1ses-419!2sar"
+                            width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                </div>
-                <button class="btn">Submit</button>
             </div>
-        </form>
+        </div>
         <br><br><br>
     </main>
 
     <!--Pie----------------------------------------------------------->
 
     <footer class="footer">
-        <div class="logoPie">
-            <img src="../resources/Logo32x32.svg">
-        </div>
-        <div class="redes">
-            <a href="https://instagram.com/grasshoppeala?igshid=YmMyMTA2M2Y=" target="_blank"><img src="../resources/Asset 1.svg"></a><br>
-            <a href="https://www.youtube.com/channel/UC4ubdQDvmi9nGx--iXOlwwA" target="_blank"><img src="../resources/Asset 2.svg"></a>
+        <div class="container footerRedes">
+            <div class="row">
+                <div class="col">
+                    <div class="logoPie">
+                        <img src="../resources/Logo32x32.svg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="redes">
+                        <a href="https://instagram.com/grasshoppeala?igshid=YmMyMTA2M2Y=" target="_blank">
+                            <img src="../resources/Asset 1.svg"></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UC4ubdQDvmi9nGx--iXOlwwA" target="_blank">
+                            <img src="../resources/Asset 2.svg"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
