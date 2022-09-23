@@ -100,9 +100,9 @@ main {
 }
 
 .accesoCursos {
-  margin-left: 10rem;
+  margin-left: 15rem;
   position: absolute;
-  bottom: 35%;
+  bottom: 25%;
   left: 8%;
 }
 
@@ -335,14 +335,11 @@ h4 {
   .banner {
     background-size: 1750px;
   }
-  .botonCursos {
-    width: 10px;
-    font-size: 2rem;
-    margin-left: 15rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  .accesoCursos {
+    margin-left: 18rem;
+    position: absolute;
+    bottom: 30%;
+    left: 8%;
   }
 }
 @media (max-width: 1366px) {
@@ -354,14 +351,11 @@ h4 {
   .banner {
     background-size: 1300px;
   }
-  .botonCursos {
-    width: 30px;
-    font-size: 2rem;
-    margin-left: 8rem;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+  .accesoCursos {
+    margin-left: 12rem;
+    position: absolute;
+    bottom: 35%;
+    left: 8%;
   }
 }
 @media (max-width: 1024px) {
@@ -374,14 +368,11 @@ h4 {
   .banner {
     background-size: 950px;
   }
-  .botonCursos {
-    width: 30px;
-    font-size: 2rem;
-    margin-left: 8rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+  .accesoCursos {
+    margin-left: 10rem;
+    position: absolute;
+    bottom: 45%;
+    left: 8%;
   }
 }
 @media (max-width: 720px) {
@@ -394,14 +385,11 @@ h4 {
   .banner {
     background-size: 700px;
   }
-  .botonCursos {
-    width: 20px;
-    font-size: 1.5rem;
-    margin-left: 5rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+  .accesoCursos {
+    margin-left: 8rem;
+    position: absolute;
+    bottom: 55%;
+    left: 8%;
   }
 }
 @media (max-width: 500px) {
@@ -413,14 +401,11 @@ h4 {
   .banner {
     background-size: 500px;
   }
-  .botonCursos {
-    width: 20px;
-    font-size: 1rem;
-    margin-left: 3rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .accesoCursos {
+    margin-left: 4rem;
+    position: absolute;
+    bottom: 60%;
+    left: 8%;
   }
 }
 .contenedor {
